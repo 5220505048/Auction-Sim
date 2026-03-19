@@ -1,24 +1,27 @@
-# algoritma-kisa-sinav-2
+# ⚖️ Strategic Auction Simulator (Game Theory)
 
-Açık artırma, oyun teorisi kavramlarına sıkça başvurulan bir alanı oluşturur. Oyun teorisi, stratejik etkileşimleri inceleyen ve kararlarını veren aktörlerin çıkarlarını değerlendiren bir disiplindir. Açık artırma, satıcılar ve alıcılar arasındaki rekabetçi bir ortamı temsil eder ve bu nedenle oyun teorisi ile ilgili birçok ilginç özellik içerir.
+Bu proje, **Oyun Teorisi (Game Theory)** prensiplerini kullanarak açık artırma süreçlerindeki stratejik etkileşimleri analiz eden ve simüle eden bir **C** uygulamasıdır. Katılımcıların kararlarını, risk analizlerini ve Nash Dengesi noktalarını hesaplamayı amaçlar.
 
-Katılımcılar ve Stratejiler:
+## 🚀 Proje Özeti
+Açık artırmalar sadece "en yüksek fiyatı verme" işi değildir; rakiplerin hamlelerini tahmin etme ve stratejik konumlanma sanatıdır. Bu yazılım:
+- Katılımcı stratejilerini matematiksel modellerle analiz eder.
+- Teklif senaryoları üzerinden **Nash Dengesi (Nash Equilibrium)** tespiti yapar.
+- Belirsizlik altında karar verme süreçlerini (Risk & Uncertainty) simüle eder.
 
-Açık artırmaya katılan teklif verenler (oyuncular), kendi çıkarları doğrultusunda tekliflerde bulunurlar.
-Her bir teklif veren, diğerlerinin davranışlarını dikkate alarak stratejilerini belirler. Bu stratejik düşünce, oyun teorisi kavramlarına uygun bir şekilde incelenebilir.
-Kazanma Stratejileri:
+## 🧠 Temel Konseptler
+- **Stratejik Etkileşim:** Oyuncuların birbirlerinin hamlelerine göre tekliflerini optimize etmesi.
+- **Normal Form Analizi:** Oyunun matris formu üzerinden olası çıktıların hesaplanması.
+- **Rekabet ve İşbirliği:** Oyuncular arası avantaj sağlama modelleri.
 
-Oyuncular, kazanma şanslarını artırmak için teklif stratejilerini belirlerler. Yüksek teklifler, kazanma şansını artırabilir, ancak aynı zamanda daha fazla ödeme yapma riskini de beraberinde getirebilir.
-Oyunun Normal Formu:
+## 🛠 Teknik Detaylar
+- **Dil:** C
+- **Kapsam:** Algoritma Tasarımı, Oyun Teorisi, Veri Yapıları.
+- **Analiz:** Stratejik karar matrislerinin dinamik olarak işlenmesi.
 
-Oyun teorisi, bir oyunun normal formunu (matris formunu) kullanarak çeşitli strateji kombinasyonlarını ve oyuncu çıktılarını analiz eder. Her bir teklif verenin kararları bu matriste temsil edilebilir.
-Nash Denge Noktası:
+## 💻 Kullanım
+1. Projeyi klonlayın: `git clone [repo-linki]`
+2. Derleyin: `gcc main.c -o auction_sim`
+3. Çalıştırın: `./auction_sim`
 
-Nash denge noktası, oyuncuların birbirlerinin stratejilerini bilerek en iyi sonuca ulaştığı bir durumu ifade eder. Açık artırmada, bu nokta genellikle en yüksek teklifi veren oyuncunun kazandığı ve diğerlerinin teklif etmeden önce düşündüğü bir durumu ifade edebilir.
-İşbirliği ve Rekabet:
-
-Açık artırmadaki oyuncular arasında işbirliği veya rekabet durumları, oyun teorisindeki temel konseptlerdir. Bir oyuncunun diğerine karşı avantaj sağlamak için işbirliği yapma veya tam tersine rekabet etme stratejileri geliştirmesi mümkündür.
-Risk ve Belirsizlik:
-
-Açık artırmada teklif verenler, kazanma şanslarına ilişkin belirsizlikle karşı karşıyadır. Oyun teorisi, bu belirsizliği ve oyuncuların risk alma stratejilerini anlamak için kullanılabilir.
-Açık artırma, birçok katılımcının çıkarlarını korumaya yönelik stratejik bir etkileşimi temsil ettiği için oyun teorisi bu bağlamda oldukça uygun bir analiz aracıdır. Oyun teorisi, katılımcıların stratejik kararlarını değerlendirmek, olası sonuçları tahmin etmek ve kararlarını optimize etmek için kullanılabilir.
+---
+> *Bu proje, karmaşık karar verme mekanizmalarının yazılımsal olarak nasıl modellenebileceğini göstermek amacıyla geliştirilmiştir.*
